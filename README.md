@@ -20,6 +20,8 @@ A curated collection of AI agent skills for design, productivity, research, and 
 - **baoyu-comic** — Knowledge comics: educational, biography, tutorial
 
 ### 📦 Productivity
+- **venice-router** — Supreme model router for Venice.ai: auto-classifies query complexity and routes to the cheapest adequate model (35+ models, web search, uncensored/private-only modes, conversation-aware routing, cost budgets, function calling, thinking mode)
+- **viv-mind** — Link/video harvesting from Telegram → structured journal (xlsx) → watercolor infographic via Venice image models → Instagram-style feed → GitHub push
 - **railway-cli-deployments** — Railway CLI setup, token auth, and deployment workflows
 - **venice-api-overview** — High-level map of Venice.ai API
 - **venice-auth** — Venice API authentication (API key + x402 wallet)
