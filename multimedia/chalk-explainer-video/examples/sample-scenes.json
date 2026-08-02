@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The Magic Behind AI",
+    "narration": "Ever wondered how AI can write essays or answer questions? At its core, a large language model does one simple thing: it predicts the next word. It learned how by reading billions of words from the internet. No magic, just patterns and math.",
+    "image_prompt": "A flow diagram: text flows in from the left through a brain-like neural network in the center, and predictions flow out to the right. Labels: 'INPUT', 'NEURAL NETWORK', 'OUTPUT'. A laptop at the bottom with glowing text flowing from its screen.",
+    "video_prompt": "First the title, then the input arrow on the left, then the neural network brain in the center, then the output arrow on the right, then the laptop at the bottom, finally the labels."
+  },
+  {
+    "title": "Predicting the Next Word",
+    "narration": "Think of it like autocomplete on your phone, but supercharged. Give it 'The cat sat on the' and it predicts 'mat.' It has read millions of similar sentences and knows what comes next.",
+    "image_prompt": "A fill-in-the-blank sentence displayed prominently: 'The cat sat on the ___.' Below, three candidate words on podiums: 'mat' (highlighted), 'floor', 'chair'. A phone in the corner showing autocomplete.",
+    "video_prompt": "First the sentence with the blank, then the three word podiums one by one, then highlight 'mat', finally the phone autocomplete."
+  },
+  {
+    "title": "Reading the Whole Internet",
+    "narration": "To get good at guessing, the model read a staggering amount of text: books, articles, websites, conversations. Billions of words. It learned patterns of how humans write by seeing countless examples.",
+    "image_prompt": "A vast library transforming into a digital landscape. Bookshelves on the left, web pages and chat bubbles in the center, all flowing toward a brain-like sphere that absorbs them.",
+    "video_prompt": "First the bookshelves on the left, then the web pages appearing, then the chat bubbles, finally the brain sphere absorbing everything."
+  },
+  {
+    "title": "Breaking Words Into Tokens",
+    "narration": "Before processing, text gets sliced into tokens: chunks that might be whole words, parts of words, or single letters. 'Playing' might become 'play' plus 'ing.' This helps the model handle any language.",
+    "image_prompt": "The word 'PLAYING' being cut apart by scissors into puzzle pieces: 'PLAY' and 'ING.' Other examples around it: 'UNHAPPY' split into 'UN' and 'HAPPY.'",
+    "video_prompt": "First the word PLAYING appears, then scissors cut it, then the two puzzle pieces separate, then the other examples appear."
+  },
+  {
+    "title": "Paying Attention to Context",
+    "narration": "Here's the breakthrough: attention lets the model focus on relevant words anywhere in the input. When it reads 'bank,' attention checks nearby words to decide: river bank or money bank? Context is everything.",
+    "image_prompt": "The word 'BANK' in the center. Two spotlight beams: one connecting to 'river, water, fishing' (labeled RIVER), another to 'money, loan, deposit' (labeled MONEY). The river side is illuminated.",
+    "video_prompt": "First the word BANK appears, then the two spotlight beams extend out, then the context words appear on each side, finally the river side illuminates."
+  },
+  {
+    "title": "Key Takeaways",
+    "narration": "So remember: language models predict the next word, trained on billions of texts, broken into tokens, using attention to understand context. Not magic, just math at massive scale. And that's pretty amazing.",
+    "image_prompt": "A summary card with four bullet points: '1. Predicts next word', '2. Trained on billions of texts', '3. Text broken into tokens', '4. Attention understands context'. A small brain icon at the top.",
+    "video_prompt": "Each takeaway bullet point appears one by one, then the brain icon at the top."
+  }
+]

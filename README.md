@@ -22,6 +22,7 @@ A curated collection of AI agent skills for design, productivity, research, and 
 ### 📦 Productivity
 - **venice-router** — Supreme model router for Venice.ai: auto-classifies query complexity and routes to the cheapest adequate model (35+ models, web search, uncensored/private-only modes, conversation-aware routing, cost budgets, function calling, thinking mode)
 - **viv-mind** — Link/video harvesting from Telegram → structured journal (xlsx) → watercolor infographic via Venice image models → Instagram-style feed → GitHub push
+- **context-engineering** — Context engineering best practices for advanced AI models — trim overconstraining rules, use progressive disclosure, design tool interfaces over examples
 - **railway-cli-deployments** — Railway CLI setup, token auth, and deployment workflows
 - **venice-api-overview** — High-level map of Venice.ai API
 - **venice-auth** — Venice API authentication (API key + x402 wallet)
@@ -53,8 +54,10 @@ A curated collection of AI agent skills for design, productivity, research, and 
 - **vega-app-dev-qa** — App development QA with RLS templates, security prompts, legal checklist
 
 ### 🎬 Multimedia
+- **chalk-explainer-video** — Narrated professional watercolor explainer videos with first-frame/last-frame video interpolation, TTS voiceover, and background music via Venice API
+- **jessica-ai-pharma-exchange** — AI Pharma Exchange short podcast video pipeline with Jessica voice, Seedance R2V hostess, watercolor slides, and lip-sync
 - **video-movie-prompting** — Video generation prompts for Sora, Kling, Wan, Seedance, and others
 
 ## Source
 
-Skills authored by Vivek (viv-design, viv-app-build, grilling, grill-me, grill-with-docs, gai-insights) and curated/installed skills from Hermes Agent, VeniceAI, Open Design, and the Karpathy coding principles repo.
+Skills authored by Vivek (viv-design, viv-app-build, grilling, grill-me, grill-with-docs, gai-insights, chalk-explainer-video, jessica-ai-pharma-exchange, context-engineering) and curated/installed skills from Hermes Agent, VeniceAI, Open Design, and the Karpathy coding principles repo.
