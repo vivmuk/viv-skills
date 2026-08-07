@@ -1,0 +1,4 @@
+interface:
+  display_name: "AIPharmaXchange Article Video"
+  short_description: "Turn pharma papers into LinkedIn videos"
+  default_prompt: "Use $aipharmaxchange-article-video to turn this pharma AI paper into a watercolor, lip-synced LinkedIn video."
