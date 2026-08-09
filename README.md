@@ -47,6 +47,7 @@ A curated collection of AI agent skills for design, productivity, research, and 
 
 ### 🔬 Research
 - **gai-insights** — AI/GenAI article significance rating with GAI Summary rubric
+- **free-inference-apis** — Catalog and usage guide for 10 free LLM inference providers (OpenRouter, NVIDIA NIM, Google Gemini, Groq, Cloudflare, Cerebras, SambaNova, HuggingFace, Cohere, Chutes.ai) with API keys, endpoints, rate limits, code examples, and a multi-provider fallback router script
 
 ### 💻 Software Development
 - **karpathy-coding-principles** — Karpathy's 4 rules for disciplined coding agents (think before coding, simplicity first, surgical changes, goal-driven execution)
