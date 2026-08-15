@@ -1,6 +1,6 @@
 ---
 name: medical-affairs-org
-description: Deploy a Medical Affairs AI org on Railway (kanban+dashboard).
+description: Deploy a Medical Affairs org on Railway (kanban+dashboard).
 ---
 
 # Medical Affairs AI Organization — Railway deployment
