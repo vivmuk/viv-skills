@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Diagram Design — Cheat Sheet</title>
+<style>
+  :root{
+    --paper:#f5f5f5; --paper-2:#ffffff; --ink:#2d3142; --muted:#6b7280;
+    --accent:#eb6c36; --hairline:#d9d9d9;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--paper);color:var(--ink);font-family:ui-sans-serif,-apple-system,"Helvetica Neue",Arial,sans-serif;padding:56px 48px;max-width:1100px;margin:0 auto}
+  .kicker{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-weight:700;margin-bottom:10px}
+  h1{font-size:34px;font-weight:800;letter-spacing:-.02em;margin-bottom:6px}
+  .sub{color:var(--muted);font-size:14px;margin-bottom:36px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+  .card{background:var(--paper-2);border:1px solid var(--hairline);border-radius:6px;padding:22px 24px}
+  .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+  .card ol,.card ul{list-style:none}
+  .card li{font-size:13.5px;line-height:1.55;padding:5px 0;border-bottom:1px dashed var(--hairline)}
+  .card li:last-child{border-bottom:none}
+  .card li b{font-weight:700}
+  .card code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;background:#efefef;border:1px solid var(--hairline);border-radius:4px;padding:1px 5px}
+  .num{display:inline-block;width:20px;height:20px;border-radius:50%;background:var(--ink);color:var(--paper);font-size:11px;font-weight:700;text-align:center;line-height:20px;margin-right:8px}
+  .accent{color:var(--accent);font-weight:700}
+  .footer{margin-top:28px;font-size:11.5px;color:var(--muted);display:flex;justify-content:space-between;border-top:1px solid var(--hairline);padding-top:14px}
+  .full{grid-column:1/-1}
+</style>
+</head>
+<body>
+  <div class="kicker">Cheat Sheet · cathrynlavery/diagram-design</div>
+  <h1>Editorial diagrams with Ox Alpha</h1>
+  <div class="sub">39 diagram types · self-contained HTML + SVG · no Mermaid slop · skill installed in viv-skills/design/diagram-design</div>
+
+  <div class="grid">
+    <div class="card">
+      <h2>How to ask — 5 steps</h2>
+      <ol>
+        <li><span class="num">1</span>State the <b>type</b> (or let me pick): "architecture diagram of my app"</li>
+        <li><span class="num">2</span>List the <b>nodes</b> — keep it under ~9; more is two diagrams</li>
+        <li><span class="num">3</span>Name the <b>connections</b> and direction</li>
+        <li><span class="num">4</span>Pick a <b>variant</b>: light · dark · full-editorial (default: light)</li>
+        <li><span class="num">5</span>Get back a <b>self-contained .html</b> — open in any browser, screenshot done</li>
+      </ol>
+    </div>
+
+    <div class="card">
+      <h2>Pick the right type</h2>
+      <ul>
+        <li><b>System shape</b> → architecture, high-level, deployment, data flow</li>
+        <li><b>Logic / time</b> → flowchart, sequence, state machine, timeline, Gantt</li>
+        <li><b>People &amp; ownership</b> → org chart, swimlane, process, kanban</li>
+        <li><b>Compare / decide</b> → quadrant, radar, bar, line, scatter, treemap</li>
+        <li><b>Strategy</b> → loop/flywheel, pyramid, venn, Wardley map, fishbone</li>
+        <li><b>Data</b> → ER, db schema, UML class, medallion, Sankey, story map</li>
+      </ul>
+    </div>
+
+    <div class="card full">
+      <h2>One-liners that just work</h2>
+      <ul>
+        <li>"Make me an <b>architecture diagram</b>: frontend, backend, Postgres, Redis cache."</li>
+        <li>"<b>Quadrant</b> of Q2 projects, impact vs effort."</li>
+        <li>"<b>Sequence</b> of a bearer call with token refresh on 401."</li>
+        <li>"<b>Redraw</b> this drawio file for my deck — slide-16x9, simplified, executive." <span class="accent">← import mode</span></li>
+        <li>"Make this <b>Mermaid block editorial</b>." <span class="accent">← import mode</span></li>
+        <li>"<b>Onboard diagram-design</b> to https://mysite.com" <span class="accent">← brand matching, 60s</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>The 4 import dials (drawio / Mermaid)</h2>
+      <ul>
+        <li><b>Format</b>: html · svg · png · html+png</li>
+        <li><b>Size</b>: doc-inline · slide-16x9 · social-og · print-a4 · fit …</li>
+        <li><b>Detail</b>: faithful (≤24 nodes) · balanced (≤12) · simplified (≤7)</li>
+        <li><b>Audience</b>: engineer · mixed · executive (changes wording, not count)</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Design rules it enforces</h2>
+      <ul>
+        <li><b>Density 4/10</b> — deletion is the highest-quality move</li>
+        <li>Accent color on <b>1–2 focal nodes only</b>, never 5</li>
+        <li>Every connection must carry information — else delete the line</li>
+        <li>WCAG AA contrast checked automatically on brand onboarding</li>
+        <li>Static by default; motion is opt-in and accessible</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer">
+    <span>Source: github.com/cathrynlavery/diagram-design · v2.6 · MIT</span>
+    <span>Skill location: viv-skills/design/diagram-design</span>
+  </div>
+</body>
+</html>
