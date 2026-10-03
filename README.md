@@ -5,6 +5,7 @@ A curated collection of AI agent skills for design, productivity, research, and 
 ## Categories
 
 ### 🎨 Design
+- **frontend-design-taste** — Five-source front-end design doctrine (taste-skill + Vercel guidelines audit + 74 real DESIGN.md token systems + image-first references + playwright-cli browser QA). 34 vendored reference files, QA-checked, mobile-first. Dist. zip: `frontend-design-taste.zip`
 - **viv-design** — UI/UX design system with 22 sub-commands (craft, shape, audit, polish, critique, animate, typeset, layout, colorize, clarify, bolder, quieter, distill, harden, onboard, adapt, optimize, extract, document, init)
 - **viv-app-build** — Full-stack app building with grilling-first interview process
 - **open-design-first** — Open Design integration for Venice AI-powered design work
