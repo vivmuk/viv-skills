@@ -48,7 +48,7 @@ A curated collection of AI agent skills for design, productivity, research, and 
 
 ### 🔬 Research
 - **gai-insights** — AI/GenAI article significance rating with GAI Summary rubric
-- **novel-business-ideas** — Daily novel business idea generation from the public-apis catalog + Venice API: cross-category API combos, web-search novelty checks, anti-repeat ideas log, Telegram output format, and the 10pm ET cron setup
+- **novel-business-ideas** — Daily novel business idea generation from the public-apis catalog + Venice API: cross-category API combos, web-search novelty checks, anti-repeat ideas log, Telegram output format, and the 10pm ET cron setup. Self-contained: bundles a 2,003-API machine-readable index (51 categories, 934 keyless), the raw catalog snapshot, the ideas log, and an index-rebuild script.
 - **free-inference-apis** — Catalog and usage guide for 10 free LLM inference providers (OpenRouter, NVIDIA NIM, Google Gemini, Groq, Cloudflare, Cerebras, SambaNova, HuggingFace, Cohere, Chutes.ai) with API keys, endpoints, rate limits, code examples, and a multi-provider fallback router script
 
 ### 💻 Software Development
