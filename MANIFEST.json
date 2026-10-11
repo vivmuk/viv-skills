@@ -1,0 +1,1154 @@
+[
+ {
+  "name": "ai-video-production",
+  "path": "ai-video-production",
+  "description": "'End-to-end agent-driven AI video production on Venice: paper-summary reels, talking-head explainers, brand-strip series. Covers the full stack \u2014 Seedance 2.0 f",
+  "file_count": 4
+ },
+ {
+  "name": "apple-notes",
+  "path": "apple/apple-notes",
+  "description": "\"Manage Apple Notes via memo CLI: create, search, edit.\"",
+  "file_count": 1
+ },
+ {
+  "name": "apple-reminders",
+  "path": "apple/apple-reminders",
+  "description": "\"Apple Reminders via remindctl: add, list, complete.\"",
+  "file_count": 1
+ },
+ {
+  "name": "findmy",
+  "path": "apple/findmy",
+  "description": "\"Track Apple devices/AirTags via FindMy.app on macOS.\"",
+  "file_count": 1
+ },
+ {
+  "name": "imessage",
+  "path": "apple/imessage",
+  "description": "Send and receive iMessages/SMS via the imsg CLI on macOS.",
+  "file_count": 1
+ },
+ {
+  "name": "macos-computer-use",
+  "path": "apple/macos-computer-use",
+  "description": "| Drive the macOS desktop in the background \u2014 screenshots, mouse, keyboard, scroll, drag \u2014 without stealing the user's cursor, keyboard focus, or Space. Works w",
+  "file_count": 1
+ },
+ {
+  "name": "claude-code",
+  "path": "autonomous-ai-agents/claude-code",
+  "description": "\"Delegate coding to Claude Code CLI (features, PRs).\"",
+  "file_count": 1
+ },
+ {
+  "name": "codex",
+  "path": "autonomous-ai-agents/codex",
+  "description": "\"Delegate coding to OpenAI Codex CLI (features, PRs).\"",
+  "file_count": 1
+ },
+ {
+  "name": "hermes-agent",
+  "path": "autonomous-ai-agents/hermes-agent",
+  "description": "\"Configure, extend, or contribute to Hermes Agent.\"",
+  "file_count": 3
+ },
+ {
+  "name": "hermes-subagent-profile",
+  "path": "autonomous-ai-agents/hermes-subagent-profile",
+  "description": "Create a Hermes profile that runs as an isolated sub-agent with its own Telegram bot, bounded toolset, and strict separation from the default profile (you). Tri",
+  "file_count": 7
+ },
+ {
+  "name": "kanban-codex-lane",
+  "path": "autonomous-ai-agents/kanban-codex-lane",
+  "description": "Use when a Hermes Kanban worker wants to run Codex CLI as an isolated implementation lane while Hermes keeps ownership of task lifecycle, reconciliation, testin",
+  "file_count": 2
+ },
+ {
+  "name": "managed-agent-deployment",
+  "path": "autonomous-ai-agents/managed-agent-deployment",
+  "description": "Provisioning + operating AI agents on managed, serverless agent platforms (Maritime CLI and similar). Covers the agent lifecycle, custom LLM provider routing vi",
+  "file_count": 4
+ },
+ {
+  "name": "openclaw-model-management",
+  "path": "autonomous-ai-agents/openclaw-model-management",
+  "description": "\"Register a brand-new Venice-hosted model in OpenClaw, set it as primary, configure reasoning effort at the highest available level (with proper levelMap transl",
+  "file_count": 4
+ },
+ {
+  "name": "opencode",
+  "path": "autonomous-ai-agents/opencode",
+  "description": "\"Delegate coding to OpenCode CLI (features, PR review).\"",
+  "file_count": 1
+ },
+ {
+  "name": "paperclip",
+  "path": "autonomous-ai-agents/paperclip",
+  "description": "Paperclip \u2014 self-hosted multi-agent orchestration platform. Configure companies, agents, tasks, adapters, secrets, and provider integrations.",
+  "file_count": 9
+ },
+ {
+  "name": "branded-infographic",
+  "path": "branded-infographic",
+  "description": "How to generate branded infographics for AIPharmaXchange (org maps, cost breakdowns, agent inventories, model comparisons). Covers when to use the image model v",
+  "file_count": 3
+ },
+ {
+  "name": "computer-use",
+  "path": "computer-use",
+  "description": "| Drive the user's desktop in the background \u2014 clicking, typing, scrolling, dragging \u2014 without stealing the cursor, keyboard focus, or switching virtual desktop",
+  "file_count": 1
+ },
+ {
+  "name": "architecture-diagram",
+  "path": "creative/architecture-diagram",
+  "description": "\"Dark-themed SVG architecture/cloud/infra diagrams as HTML.\"",
+  "file_count": 2
+ },
+ {
+  "name": "ascii-art",
+  "path": "creative/ascii-art",
+  "description": "\"ASCII art: pyfiglet, cowsay, boxes, image-to-ascii.\"",
+  "file_count": 1
+ },
+ {
+  "name": "ascii-video",
+  "path": "creative/ascii-video",
+  "description": "\"ASCII video: convert video/audio to colored ASCII MP4/GIF.\"",
+  "file_count": 10
+ },
+ {
+  "name": "baoyu-infographic",
+  "path": "creative/baoyu-infographic",
+  "description": "\"Infographics: 21 layouts x 21 styles (\u4fe1\u606f\u56fe, \u53ef\u89c6\u5316).\"",
+  "file_count": 47
+ },
+ {
+  "name": "claude-design",
+  "path": "creative/claude-design",
+  "description": "Design one-off HTML artifacts (landing, deck, prototype).",
+  "file_count": 1
+ },
+ {
+  "name": "comfyui",
+  "path": "creative/comfyui",
+  "description": "\"Generate images, video, and audio with ComfyUI \u2014 install, launch, manage nodes/models, run workflows with parameter injection. Uses the official comfy-cli for ",
+  "file_count": 33
+ },
+ {
+  "name": "design-md",
+  "path": "creative/design-md",
+  "description": "Author/validate/export Google's DESIGN.md token spec files.",
+  "file_count": 2
+ },
+ {
+  "name": "excalidraw",
+  "path": "creative/excalidraw",
+  "description": "\"Hand-drawn Excalidraw JSON diagrams (arch, flow, seq).\"",
+  "file_count": 5
+ },
+ {
+  "name": "humanizer",
+  "path": "creative/humanizer",
+  "description": "\"Humanize text: strip AI-isms and add real voice.\"",
+  "file_count": 2
+ },
+ {
+  "name": "manim-video",
+  "path": "creative/manim-video",
+  "description": "\"Manim CE animations: 3Blue1Brown math/algo videos.\"",
+  "file_count": 17
+ },
+ {
+  "name": "open-design",
+  "path": "creative/open-design",
+  "description": "AI design engine that generates production-ready artifacts (HTML, PNG, React, Tailwind) using DESIGN.md brand contracts and Venice API. Daemon with 155+ skills.",
+  "file_count": 2
+ },
+ {
+  "name": "p5js",
+  "path": "creative/p5js",
+  "description": "\"p5.js sketches: gen art, shaders, interactive, 3D.\"",
+  "file_count": 17
+ },
+ {
+  "name": "popular-web-designs",
+  "path": "creative/popular-web-designs",
+  "description": "54 real design systems (Stripe, Linear, Vercel) as HTML/CSS.",
+  "file_count": 55
+ },
+ {
+  "name": "pretext",
+  "path": "creative/pretext",
+  "description": "\"Use when building creative browser demos with @chenglou/pretext \u2014 DOM-free text layout for ASCII art, typographic flow around obstacles, text-as-geometry games",
+  "file_count": 4
+ },
+ {
+  "name": "sketch",
+  "path": "creative/sketch",
+  "description": "\"Throwaway HTML mockups: 2-3 design variants to compare.\"",
+  "file_count": 1
+ },
+ {
+  "name": "social-carousel-generation",
+  "path": "creative/social-carousel-generation",
+  "description": "Generate publication-quality social carousels (LinkedIn/Instagram multi-slide posts) for medical/pharma content using AI image models. Triggers on \"carousel\", \"",
+  "file_count": 9
+ },
+ {
+  "name": "songwriting-and-ai-music",
+  "path": "creative/songwriting-and-ai-music",
+  "description": "\"Songwriting craft and Suno AI music prompts.\"",
+  "file_count": 1
+ },
+ {
+  "name": "touchdesigner-mcp",
+  "path": "creative/touchdesigner-mcp",
+  "description": "\"Control a running TouchDesigner instance via twozero MCP \u2014 create operators, set parameters, wire connections, execute Python, build real-time visuals. 36 nati",
+  "file_count": 23
+ },
+ {
+  "name": "jupyter-live-kernel",
+  "path": "data-science/jupyter-live-kernel",
+  "description": "\"Iterative Python via live Jupyter kernel (hamelnb).\"",
+  "file_count": 1
+ },
+ {
+  "name": "baoyu-article-illustrator",
+  "path": "design/baoyu-article-illustrator",
+  "description": "\"Article illustrations: type \u00d7 style \u00d7 palette consistency.\"",
+  "file_count": 35
+ },
+ {
+  "name": "baoyu-comic",
+  "path": "design/baoyu-comic",
+  "description": "\"Knowledge comics (\u77e5\u8bc6\u6f2b\u753b): educational, biography, tutorial.\"",
+  "file_count": 35
+ },
+ {
+  "name": "classical-digital-hybrid-web-design",
+  "path": "design/classical-digital-hybrid-web-design",
+  "description": "Generate and build websites combining classical fine art aesthetics (oil painting, watercolor, engraving) with modern digital effects (glitch, chromatic aberrat",
+  "file_count": 2
+ },
+ {
+  "name": "creative-code-motion",
+  "path": "design/creative-code-motion",
+  "description": "\"Umbrella for code-driven generative visuals, browser demos, ASCII/video pipelines, Manim explainers, and TouchDesigner real-time scenes.\"",
+  "file_count": 74
+ },
+ {
+  "name": "creative-ideation",
+  "path": "design/creative-ideation",
+  "description": "\"Generate project ideas via creative constraints.\"",
+  "file_count": 2
+ },
+ {
+  "name": "creative-visual-artifacts",
+  "path": "design/creative-visual-artifacts",
+  "description": "\"Umbrella for visual design artifacts: HTML/SVG mockups, diagrams, avatars/logos, infographics, hand-drawn diagrams, design systems, and token specs.\"",
+  "file_count": 156
+ },
+ {
+  "name": "diagram-design",
+  "path": "design/diagram-design",
+  "description": "Create branded architecture, IT current-state, flowchart, sequence, state machine, ER/data model, timeline, swimlane, quadrant, radar/spider, polar chart (polar",
+  "file_count": 208
+ },
+ {
+  "name": "frontend-design-taste",
+  "path": "design/frontend-design-taste",
+  "description": "\"Use when building, redesigning, auditing, or shipping any front-end UI. A five-source design doctrine: taste, guidelines audit, real design-system tokens, imag",
+  "file_count": 34
+ },
+ {
+  "name": "grill-me",
+  "path": "design/grill-me",
+  "description": "A relentless interview to sharpen a plan or design.",
+  "file_count": 1
+ },
+ {
+  "name": "grill-with-docs",
+  "path": "design/grill-with-docs",
+  "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+  "file_count": 1
+ },
+ {
+  "name": "grilling",
+  "path": "design/grilling",
+  "description": "Grill the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.",
+  "file_count": 1
+ },
+ {
+  "name": "open-design-first",
+  "path": "design/open-design-first",
+  "description": "\"Use Open Design first for design-related work: UI/UX, visual prototypes, landing pages, decks, brand systems, artifact previews, image/video/audio assets, and ",
+  "file_count": 4
+ },
+ {
+  "name": "pixel-art",
+  "path": "design/pixel-art",
+  "description": "\"Pixel art w/ era palettes (NES, Game Boy, PICO-8).\"",
+  "file_count": 7
+ },
+ {
+  "name": "viv-app-build",
+  "path": "design/viv-app-build",
+  "description": "Use when the user asks to build, develop, scaffold, design, prototype, implement, or ship an application \u2014 full-stack web app, mobile app, CLI app, dashboard, S",
+  "file_count": 3
+ },
+ {
+  "name": "viv-design",
+  "path": "design/viv-design",
+  "description": "'Use when designing, building, scaffolding, reviewing, auditing, critiquing, polishing, or shipping any frontend surface - website, landing page, web app, dashb",
+  "file_count": 8
+ },
+ {
+  "name": "ai-agents-nightly-backup",
+  "path": "devops/ai-agents-nightly-backup",
+  "description": "\"Build a nightly, file-locked, incremental Python backup pipeline for AI agent state + artifacts on macOS, with cloud-sync primary destination and an auto-fallb",
+  "file_count": 5
+ },
+ {
+  "name": "cloud-agent-provisioning",
+  "path": "devops/cloud-agent-provisioning",
+  "description": "Provision and operate an AI agent on a hosted agent SaaS (Railway.sh, maritime.sh, Render, Fly.io, Modal, Daytona, Replicate, etc.). Use when the user wants \"ho",
+  "file_count": 10
+ },
+ {
+  "name": "cross-agent-backup-system",
+  "path": "devops/cross-agent-backup-system",
+  "description": "\"Install and maintain a nightly state+artifact backup system for multiple AI agents on one machine (e.g. Hermes + OpenClaw + Paperclip together). Covers the sta",
+  "file_count": 7
+ },
+ {
+  "name": "hermes-cron-ops",
+  "path": "devops/hermes-cron-ops",
+  "description": "\"Manage, audit, and troubleshoot Hermes cron jobs \u2014 model pinning, output logs, silent failure debugging, and model policy enforcement.\"",
+  "file_count": 2
+ },
+ {
+  "name": "kanban-orchestrator",
+  "path": "devops/kanban-orchestrator",
+  "description": "Decomposition playbook + anti-temptation rules for an orchestrator profile routing work through Kanban. The \"don't do the work yourself\" rule and the basic life",
+  "file_count": 1
+ },
+ {
+  "name": "kanban-worker",
+  "path": "devops/kanban-worker",
+  "description": "Pitfalls, examples, and edge cases for Hermes Kanban workers. The lifecycle itself is auto-injected into every worker's system prompt as KANBAN_GUIDANCE (from a",
+  "file_count": 1
+ },
+ {
+  "name": "medical-affairs-org",
+  "path": "devops/medical-affairs-org",
+  "description": "Deploy a Medical Affairs org on Railway (kanban+dashboard).",
+  "file_count": 1
+ },
+ {
+  "name": "multi-agent-nightly-backup",
+  "path": "devops/multi-agent-nightly-backup",
+  "description": "Nightly backup orchestration for multi-agent workstations. Covers the shape of incrementally backing up multiple AI agents' state + portable artifacts to a clou",
+  "file_count": 6
+ },
+ {
+  "name": "openclaw",
+  "path": "devops/openclaw",
+  "description": "\"Manage AI agent platforms \u2014 OpenClaw (agent gateway, Telegram, cron) and Paperclip (agent company control plane). Install, configure, migrate (Windows\u2194WSL), ga",
+  "file_count": 9
+ },
+ {
+  "name": "railway",
+  "path": "devops/railway",
+  "description": "\"Deploy apps and manage services on Railway via CLI and API.\"",
+  "file_count": 4
+ },
+ {
+  "name": "self-hosted-agent-deployment",
+  "path": "devops/self-hosted-agent-deployment",
+  "description": "Deploy a personal AI agent to managed cloud, either a VM with secure tunneling (Oracle A1 / Hetzner / Fly / EC2) OR a PaaS with built-in public ingress (Railway",
+  "file_count": 23
+ },
+ {
+  "name": "twilio-voice",
+  "path": "devops/twilio-voice",
+  "description": "\"Build Twilio voice bots: phone call \u2192 STT \u2192 LLM task processing \u2192 Venice TTS \u2192 voice response. Covers webhook architecture, FastAPI server, TwiML Gather, calle",
+  "file_count": 7
+ },
+ {
+  "name": "webhook-subscriptions",
+  "path": "devops/webhook-subscriptions",
+  "description": "\"Webhook subscriptions: event-driven agent runs.\"",
+  "file_count": 1
+ },
+ {
+  "name": "wsl-disk-management",
+  "path": "devops/wsl-disk-management",
+  "description": "\"Diagnose and reclaim disk space on the Windows C: drive from within WSL. Covers identifying space hogs across the Windows/WSL boundary, cleaning caches, compac",
+  "file_count": 3
+ },
+ {
+  "name": "dogfood",
+  "path": "dogfood",
+  "description": "\"Exploratory QA of web apps: find bugs, evidence, reports.\"",
+  "file_count": 3
+ },
+ {
+  "name": "editorial-rigor",
+  "path": "editorial-rigor",
+  "description": "Pre-Publish Editorial Checklist for every critique, analytical post, or limitations write-up. Run all four passes (Type 2 thinking, accuracy, fair/balance, bias",
+  "file_count": 9
+ },
+ {
+  "name": "editorial-carousel-orchestration",
+  "path": "editorial-rigor/editorial-carousel-orchestration",
+  "description": "Orchestrate a multi-agent pipeline that turns a research paper (PDF) into an 8-slide editorial carousel (PNG deck + PDF + ZIP) \u2014 7 content slides + 1 Follow-AIP",
+  "file_count": 5
+ },
+ {
+  "name": "himalaya",
+  "path": "email/himalaya",
+  "description": "\"Himalaya CLI: IMAP/SMTP email from terminal.\"",
+  "file_count": 5
+ },
+ {
+  "name": "minecraft-modpack-server",
+  "path": "gaming/minecraft-modpack-server",
+  "description": "\"Host modded Minecraft servers (CurseForge, Modrinth).\"",
+  "file_count": 1
+ },
+ {
+  "name": "pokemon-player",
+  "path": "gaming/pokemon-player",
+  "description": "\"Play Pokemon via headless emulator + RAM reads.\"",
+  "file_count": 1
+ },
+ {
+  "name": "codebase-inspection",
+  "path": "github/codebase-inspection",
+  "description": "\"Inspect codebases w/ pygount: LOC, languages, ratios.\"",
+  "file_count": 1
+ },
+ {
+  "name": "github-auth",
+  "path": "github/github-auth",
+  "description": "\"GitHub auth setup: HTTPS tokens, SSH keys, gh CLI login.\"",
+  "file_count": 2
+ },
+ {
+  "name": "github-code-review",
+  "path": "github/github-code-review",
+  "description": "\"Review PRs: diffs, inline comments via gh or REST.\"",
+  "file_count": 2
+ },
+ {
+  "name": "github-issues",
+  "path": "github/github-issues",
+  "description": "\"Create, triage, label, assign GitHub issues via gh or REST.\"",
+  "file_count": 3
+ },
+ {
+  "name": "github-pr-workflow",
+  "path": "github/github-pr-workflow",
+  "description": "\"GitHub PR lifecycle: branch, commit, open, CI, merge.\"",
+  "file_count": 5
+ },
+ {
+  "name": "github-repo-management",
+  "path": "github/github-repo-management",
+  "description": "\"Clone/create/fork repos; manage remotes, releases.\"",
+  "file_count": 2
+ },
+ {
+  "name": "mattpocock-setup-pre-commit",
+  "path": "github/mattpocock-setup-pre-commit",
+  "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Hus",
+  "file_count": 1
+ },
+ {
+  "name": "hermes-telegram-platform",
+  "path": "hermes-telegram-platform",
+  "description": "Authorize, share, and discover Telegram chat IDs in a Hermes-deployed Telegram platform. Covers the six auth env vars (TELEGRAM_ALLOWED_USERS, TELEGRAM_GROUP_AL",
+  "file_count": 2
+ },
+ {
+  "name": "jiva-telegram-deploy",
+  "path": "jiva-telegram-deploy",
+  "description": "\"Deploy or rebuild the Jiva Hermes-on-Railway Telegram bot. Covers the inkling model swap, env-var-driven config, the DNS-over-HTTPS wedge in `plugins/platforms",
+  "file_count": 2
+ },
+ {
+  "name": "content-marketing-pipeline",
+  "path": "marketing/content-marketing-pipeline",
+  "description": "AI-driven content marketing pipeline \u2014 research \u2192 strategy \u2192 content calendar \u2192 visuals \u2192 distribution. Multi-agent orchestration for LinkedIn, newsletters, web",
+  "file_count": 6
+ },
+ {
+  "name": "native-mcp",
+  "path": "mcp/native-mcp",
+  "description": "\"MCP client: connect servers, register tools (stdio/HTTP).\"",
+  "file_count": 1
+ },
+ {
+  "name": "gif-search",
+  "path": "media/gif-search",
+  "description": "\"Search/download GIFs from Tenor via curl + jq.\"",
+  "file_count": 1
+ },
+ {
+  "name": "heartmula",
+  "path": "media/heartmula",
+  "description": "\"HeartMuLa: Suno-like song generation from lyrics + tags.\"",
+  "file_count": 1
+ },
+ {
+  "name": "songsee",
+  "path": "media/songsee",
+  "description": "\"Audio spectrograms/features (mel, chroma, MFCC) via CLI.\"",
+  "file_count": 1
+ },
+ {
+  "name": "spotify",
+  "path": "media/spotify",
+  "description": "\"Spotify: play, search, queue, manage playlists and devices.\"",
+  "file_count": 1
+ },
+ {
+  "name": "venice-media",
+  "path": "media/venice-media",
+  "description": "\"Generate images, speech, and experimental video via the Venice.ai API. For music, defer to the heartmula skill (open-source Suno-alike). Reads VENICE_API_KEY f",
+  "file_count": 1
+ },
+ {
+  "name": "youtube-content",
+  "path": "media/youtube-content",
+  "description": "\"YouTube transcripts to summaries, threads, blogs.\"",
+  "file_count": 3
+ },
+ {
+  "name": "lm-evaluation-harness",
+  "path": "mlops/evaluation/lm-evaluation-harness",
+  "description": "\"lm-eval-harness: benchmark LLMs (MMLU, GSM8K, etc.).\"",
+  "file_count": 5
+ },
+ {
+  "name": "weights-and-biases",
+  "path": "mlops/evaluation/weights-and-biases",
+  "description": "\"W&B: log ML experiments, sweeps, model registry, dashboards.\"",
+  "file_count": 4
+ },
+ {
+  "name": "huggingface-hub",
+  "path": "mlops/huggingface-hub",
+  "description": "\"HuggingFace hf CLI: search/download/upload models, datasets.\"",
+  "file_count": 1
+ },
+ {
+  "name": "llama-cpp",
+  "path": "mlops/inference/llama-cpp",
+  "description": "llama.cpp local GGUF inference + HF Hub model discovery.",
+  "file_count": 8
+ },
+ {
+  "name": "obliteratus",
+  "path": "mlops/inference/obliteratus",
+  "description": "\"OBLITERATUS: abliterate LLM refusals (diff-in-means).\"",
+  "file_count": 6
+ },
+ {
+  "name": "vllm",
+  "path": "mlops/inference/vllm",
+  "description": "\"vLLM: high-throughput LLM serving, OpenAI API, quantization.\"",
+  "file_count": 5
+ },
+ {
+  "name": "audiocraft",
+  "path": "mlops/models/audiocraft",
+  "description": "\"AudioCraft: MusicGen text-to-music, AudioGen text-to-sound.\"",
+  "file_count": 3
+ },
+ {
+  "name": "segment-anything",
+  "path": "mlops/models/segment-anything",
+  "description": "\"SAM: zero-shot image segmentation via points, boxes, masks.\"",
+  "file_count": 3
+ },
+ {
+  "name": "dspy",
+  "path": "mlops/research/dspy",
+  "description": "\"DSPy: declarative LM programs, auto-optimize prompts, RAG.\"",
+  "file_count": 4
+ },
+ {
+  "name": "venice-api",
+  "path": "mlops/venice-api",
+  "description": "Venice AI API via MCP Server \u2014 31 tools for chat, image, video, audio, music, web search, crypto. Uncensored, private AI.",
+  "file_count": 18
+ },
+ {
+  "name": "model-routing",
+  "path": "model-routing",
+  "description": "Per-agent model routing and Venice feature configuration for AIPharmaXchange Paperclip agents. Updated 2026-06-14 with the minimax-m3 / deepseek-v4-pro / grok-4",
+  "file_count": 2
+ },
+ {
+  "name": "aipharmaxchange-article-video",
+  "path": "multimedia/aipharmaxchange-article-video",
+  "description": "Produce polished AIPharmaXchange LinkedIn explainers from a pharma or health-AI paper, PDF, or research link. Use when creating or revising a lip-synced host-an",
+  "file_count": 5
+ },
+ {
+  "name": "chalk-explainer-video",
+  "path": "multimedia/chalk-explainer-video",
+  "description": "Generate narrated professional watercolor explainer videos with first-frame/last-frame video interpolation, TTS voiceover, and background music. Use when the us",
+  "file_count": 6
+ },
+ {
+  "name": "jessica-ai-pharma-exchange",
+  "path": "multimedia/jessica-ai-pharma-exchange",
+  "description": "Reusable workflow for producing AI Pharma Exchange short podcast videos with Jessica voice, Seedance R2V hostess, watercolor slides, and proper lip-sync.",
+  "file_count": 13
+ },
+ {
+  "name": "video-movie-prompting",
+  "path": "multimedia/video-movie-prompting",
+  "description": "Create model-aware prompts and shot packages for AI video generation and movie workflows. Use when an agent needs to choose or prompt Gemini Omni Flash, Grok Im",
+  "file_count": 8
+ },
+ {
+  "name": "obsidian",
+  "path": "note-taking/obsidian",
+  "description": "Read, search, create, and edit notes in the Obsidian vault.",
+  "file_count": 1
+ },
+ {
+  "name": "paper-reel-pipeline",
+  "path": "paper-reel-pipeline",
+  "description": "Produce vertical 9:16 paper-summary Instagram-style reels. Uses Venice API (Seedance 2.0 T2V/I2V/R2V + Grok Imagine Private + chatterbox voice-cloning) over the",
+  "file_count": 1
+ },
+ {
+  "name": "paperclip-delivery-daemon",
+  "path": "paperclip-delivery-daemon",
+  "description": "\"Wire Paperclip's content generation pipeline to auto-send deliverables by email. Two patterns: (1) the daemon \u2014 long-running launchd service that polls for don",
+  "file_count": 5
+ },
+ {
+  "name": "paperclip-status-transition",
+  "path": "paperclip-status-transition",
+  "description": "How to PATCH a Paperclip issue to done without losing it to the auto-continuation race. Empirical fix for AIPharmaXchange wrappers (2026-06-14). Also covers dia",
+  "file_count": 1
+ },
+ {
+  "name": "airtable",
+  "path": "productivity/airtable",
+  "description": "Airtable REST API via curl. Records CRUD, filters, upserts.",
+  "file_count": 1
+ },
+ {
+  "name": "context-engineering",
+  "path": "productivity/context-engineering",
+  "description": "\"Context engineering best practices for advanced AI models \u2014 trim overconstraining rules, use progressive disclosure, design tool interfaces over examples.\"",
+  "file_count": 2
+ },
+ {
+  "name": "google-workspace",
+  "path": "productivity/google-workspace",
+  "description": "\"Gmail, Calendar, Drive, Docs, Sheets via gws CLI or Python.\"",
+  "file_count": 6
+ },
+ {
+  "name": "linear",
+  "path": "productivity/linear",
+  "description": "\"Linear: manage issues, projects, teams via GraphQL + curl.\"",
+  "file_count": 2
+ },
+ {
+  "name": "maps",
+  "path": "productivity/maps",
+  "description": "\"Geocode, POIs, routes, timezones via OpenStreetMap/OSRM.\"",
+  "file_count": 2
+ },
+ {
+  "name": "mattpocock-grill-me",
+  "path": "productivity/mattpocock-grill-me",
+  "description": "A relentless interview to sharpen a plan or design.",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-grilling",
+  "path": "productivity/mattpocock-grilling",
+  "description": "Grill the user relentlessly about a plan or design. Use when the user wants to stress-test a plan before building, or uses any 'grill' trigger phrases.",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-handoff",
+  "path": "productivity/mattpocock-handoff",
+  "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-teach",
+  "path": "productivity/mattpocock-teach",
+  "description": "Teach the user a new skill or concept, within this workspace.",
+  "file_count": 1
+ },
+ {
+  "name": "nano-pdf",
+  "path": "productivity/nano-pdf",
+  "description": "\"Create and edit PDFs: generate styled reports from markdown via fpdf2, or edit existing PDFs via nano-pdf CLI.\"",
+  "file_count": 3
+ },
+ {
+  "name": "notion",
+  "path": "productivity/notion",
+  "description": "\"Notion API + ntn CLI: pages, databases, markdown, Workers.\"",
+  "file_count": 2
+ },
+ {
+  "name": "ocr-and-documents",
+  "path": "productivity/ocr-and-documents",
+  "description": "\"Extract text from PDFs/scans (pymupdf, marker-pdf).\"",
+  "file_count": 4
+ },
+ {
+  "name": "petdex",
+  "path": "productivity/petdex",
+  "description": "Install and select animated petdex mascots for Hermes.",
+  "file_count": 1
+ },
+ {
+  "name": "powerpoint",
+  "path": "productivity/powerpoint",
+  "description": "\"Create, read, edit .pptx decks, slides, notes, templates.\"",
+  "file_count": 50
+ },
+ {
+  "name": "teams-meeting-pipeline",
+  "path": "productivity/teams-meeting-pipeline",
+  "description": "\"Operate the Teams meeting summary pipeline via Hermes CLI \u2014 summarize meetings, inspect pipeline status, replay jobs, manage Microsoft Graph subscriptions.\"",
+  "file_count": 1
+ },
+ {
+  "name": "venice-api-keys",
+  "path": "productivity/venice-api-keys",
+  "description": "Manage Venice API keys. Covers GET/POST/PATCH/DELETE /api_keys, GET /api_keys/{id}, GET /api_keys/rate_limits, GET /api_keys/rate_limits/log, the two-step /api_",
+  "file_count": 1
+ },
+ {
+  "name": "venice-api-overview",
+  "path": "productivity/venice-api-overview",
+  "description": "High-level map of the Venice.ai API - base URL, authentication modes, endpoint categories, response headers, pricing model, error shape, and versioning. Load th",
+  "file_count": 2
+ },
+ {
+  "name": "venice-audio-music",
+  "path": "productivity/venice-audio-music",
+  "description": "Async music / audio-track generation via Venice. Covers the /audio/quote + /audio/queue + /audio/retrieve + /audio/complete lifecycle, lyrics vs instrumental, v",
+  "file_count": 1
+ },
+ {
+  "name": "venice-audio-speech",
+  "path": "productivity/venice-audio-speech",
+  "description": "Generate speech from text via POST /audio/speech. Covers TTS models (Kokoro, Qwen 3, xAI, Inworld, Chatterbox, Orpheus, ElevenLabs Turbo, MiniMax, Gemini Flash)",
+  "file_count": 1
+ },
+ {
+  "name": "venice-audio-transcription",
+  "path": "productivity/venice-audio-transcription",
+  "description": "Transcribe audio files to text via POST /audio/transcriptions. Covers supported models (Parakeet, Whisper, Wizper, Scribe, xAI STT), supported formats (wav/flac",
+  "file_count": 1
+ },
+ {
+  "name": "venice-augment",
+  "path": "productivity/venice-augment",
+  "description": "Venice augmentation endpoints for agent pipelines. Covers POST /augment/text-parser (extract text from PDF/DOCX/XLSX/plain text, multipart, up to 25MB, JSON or ",
+  "file_count": 1
+ },
+ {
+  "name": "venice-auth",
+  "path": "productivity/venice-auth",
+  "description": "Authenticate to the Venice API with a Bearer API key or with an x402 / SIWE wallet. Covers header formats, the SIWE message fields, TTL and nonce rules, the ven",
+  "file_count": 1
+ },
+ {
+  "name": "venice-billing",
+  "path": "productivity/venice-billing",
+  "description": "Venice billing and usage analytics - GET /billing/balance, GET /billing/usage (paginated per-request ledger, JSON or CSV), and GET /billing/usage-analytics (agg",
+  "file_count": 1
+ },
+ {
+  "name": "venice-characters",
+  "path": "productivity/venice-characters",
+  "description": "Discover and use Venice public characters (persona-driven system prompts with a bound model). Covers GET /characters (search/filter/sort), /characters/{slug}, /",
+  "file_count": 1
+ },
+ {
+  "name": "venice-chat",
+  "path": "productivity/venice-chat",
+  "description": "Call POST /chat/completions on Venice. Covers the OpenAI-compatible request shape, Venice-only venice_parameters (web search, E2EE, characters, thinking control",
+  "file_count": 1
+ },
+ {
+  "name": "venice-crypto-rpc",
+  "path": "productivity/venice-crypto-rpc",
+  "description": "Use Venice as a pay-per-call JSON-RPC proxy to 20+ EVM and Starknet networks. Covers GET /crypto/rpc/networks, POST /crypto/rpc/{network}, the 1\u00d7/2\u00d7/4\u00d7 method-t",
+  "file_count": 1
+ },
+ {
+  "name": "venice-embeddings",
+  "path": "productivity/venice-embeddings",
+  "description": "Call POST /embeddings on Venice. Covers request shape (input, model, encoding_format, dimensions, user), OpenAI compatibility, response compression (gzip/br), a",
+  "file_count": 1
+ },
+ {
+  "name": "venice-errors",
+  "path": "productivity/venice-errors",
+  "description": "Handle Venice API errors correctly. Covers the StandardError / DetailedError / ContentViolationError / X402InferencePaymentRequired body shapes, every meaningfu",
+  "file_count": 1
+ },
+ {
+  "name": "venice-image-edit",
+  "path": "productivity/venice-image-edit",
+  "description": "Transform existing images with Venice. Covers POST /image/edit (prompt-driven single-image edit), /image/multi-edit (compose 1-3 images), /image/upscale (2-4x u",
+  "file_count": 1
+ },
+ {
+  "name": "venice-image-generate",
+  "path": "productivity/venice-image-generate",
+  "description": "Generate images with Venice. Covers POST /image/generate (Venice-native), POST /images/generations (OpenAI-compatible), GET /image/styles (style presets), reque",
+  "file_count": 1
+ },
+ {
+  "name": "venice-models",
+  "path": "productivity/venice-models",
+  "description": "Discover Venice models, their capabilities, constraints, and pricing. Covers GET /models (with ?type filter), /models/traits, /models/compatibility_mapping, the",
+  "file_count": 1
+ },
+ {
+  "name": "venice-responses",
+  "path": "productivity/venice-responses",
+  "description": "Use Venice's Alpha POST /responses endpoint - an OpenAI-compatible Responses API with typed output blocks (reasoning, message, function_call, web_search_call). ",
+  "file_count": 1
+ },
+ {
+  "name": "venice-router",
+  "path": "productivity/venice-router",
+  "description": "Supreme model router for Venice.ai \u2014 the privacy-first, uncensored AI platform. Automatically classifies query complexity and routes to the cheapest adequate mo",
+  "file_count": 6
+ },
+ {
+  "name": "venice-video",
+  "path": "productivity/venice-video",
+  "description": "Generate and transcribe videos via Venice. Covers the async /video/quote + /video/queue + /video/retrieve + /video/complete loop, text-to-video, image-to-video,",
+  "file_count": 1
+ },
+ {
+  "name": "venice-x402",
+  "path": "productivity/venice-x402",
+  "description": "Manage Venice x402 wallet credits. Covers POST /x402/top-up (payment discovery + signed USDC settlement), GET /x402/balance/{walletAddress}, GET /x402/transacti",
+  "file_count": 1
+ },
+ {
+  "name": "viv-mind",
+  "path": "productivity/viv-mind",
+  "description": "\"Harvest links/videos shared in Telegram, journal them, generate a watercolor infographic, render an Instagram-style feed, and push to GitHub.\"",
+  "file_count": 7
+ },
+ {
+  "name": "godmode",
+  "path": "red-teaming/godmode",
+  "description": "\"Jailbreak LLMs: Parseltongue, GODMODE, ULTRAPLINIAN.\"",
+  "file_count": 9
+ },
+ {
+  "name": "arxiv",
+  "path": "research/arxiv",
+  "description": "\"Search arXiv papers by keyword, author, category, or ID.\"",
+  "file_count": 2
+ },
+ {
+  "name": "blogwatcher",
+  "path": "research/blogwatcher",
+  "description": "\"Monitor blogs and RSS/Atom feeds via blogwatcher-cli tool.\"",
+  "file_count": 1
+ },
+ {
+  "name": "book-writing-mastery",
+  "path": "research/book-writing-mastery",
+  "description": "Use when writing, editing, or reviewing book chapters for Vivek's Medical Affairs Singularity \u2014 multi-judge quality system (coherence, continuity, quality, accu",
+  "file_count": 1
+ },
+ {
+  "name": "clarity",
+  "path": "research/clarity",
+  "description": "\"Draft, rewrite, or review reader-facing prose so it is specific, useful, and recognizably the author's without inventing facts or performing humanness. Use for",
+  "file_count": 89
+ },
+ {
+  "name": "deep-research",
+  "path": "research/deep-research",
+  "description": "\"Conduct deep multi-source research reports using free academic APIs (PubMed, Wikipedia, arXiv, Semantic Scholar). Covers API selection, search strategy, litera",
+  "file_count": 2
+ },
+ {
+  "name": "free-inference-apis",
+  "path": "research/free-inference-apis",
+  "description": "> Catalog and usage guide for free LLM inference APIs \u2014 OpenRouter, NVIDIA NIM, Google Gemini, Groq, Cloudflare Workers AI, Cerebras, SambaNova, HuggingFace, Co",
+  "file_count": 2
+ },
+ {
+  "name": "gai-insights",
+  "path": "research/gai-insights",
+  "description": "Use when Vivek asks to summarize one or more AI/GenAI articles using GAI Summary or asks for AI-leader significance/insights. Extract article text, apply the AI",
+  "file_count": 2
+ },
+ {
+  "name": "ghostwriter-interview",
+  "path": "research/ghostwriter-interview",
+  "description": "Use when running the daily chapter interviews for Medical Affairs Singularity \u2014 one chapter per day, ghostwriter questions emailed at 9:30 PM.",
+  "file_count": 1
+ },
+ {
+  "name": "llm-wiki",
+  "path": "research/llm-wiki",
+  "description": "\"Karpathy's LLM Wiki: build/query interlinked markdown KB.\"",
+  "file_count": 1
+ },
+ {
+  "name": "novel-business-ideas",
+  "path": "research/novel-business-ideas",
+  "description": "Use when asked for novel, never-before-launched business ideas built on free public APIs (github.com/public-apis/public-apis), optionally combined with the Veni",
+  "file_count": 5
+ },
+ {
+  "name": "paper-writing-skill",
+  "path": "research/paper-writing-skill",
+  "description": "\"Research paper writing assistant that enforces Arpit Gupta's editorial principles, voice profile, and writing workflow. MANDATORY TRIGGERS: Use this skill when",
+  "file_count": 32
+ },
+ {
+  "name": "polymarket",
+  "path": "research/polymarket",
+  "description": "\"Query Polymarket: markets, prices, orderbooks, history.\"",
+  "file_count": 3
+ },
+ {
+  "name": "research-paper-writing",
+  "path": "research/research-paper-writing",
+  "description": "\"Write ML papers for NeurIPS/ICML/ICLR: design\u2192submit.\"",
+  "file_count": 55
+ },
+ {
+  "name": "sciwrite",
+  "path": "research/sciwrite",
+  "description": "> Use this skill when asked to review, edit, or improve the writing quality of a scientific or engineering manuscript. Triggers include: \"review my writing,\" \"c",
+  "file_count": 3
+ },
+ {
+  "name": "writing-style-skill",
+  "path": "research/writing-style-skill",
+  "description": "| \u53ef\u590d\u7528\u7684\u5199\u4f5c\u98ce\u683c Skill \u6a21\u677f\u3002\u5185\u7f6e\u81ea\u52a8\u5b66\u4e60\uff1a \u4ece\u4f60\u7684\u4fee\u6539\u4e2d\u81ea\u52a8\u63d0\u53d6\u89c4\u5219\uff0cSKILL.md \u8d8a\u7528\u8d8a\u51c6\u3002 Fork \u540e\u6539\u6210\u4f60\u81ea\u5df1\u7684\u98ce\u683c\u3002",
+  "file_count": 4
+ },
+ {
+  "name": "send-gmail-attachment",
+  "path": "send-gmail-attachment",
+  "description": "Send an email with file attachments from vivgatesai@gmail.com via Gmail SMTP. Use when the user asks to email a file, deliver a report, or send documents. Bypas",
+  "file_count": 1
+ },
+ {
+  "name": "openhue",
+  "path": "smart-home/openhue",
+  "description": "\"Control Philips Hue lights, scenes, rooms via OpenHue CLI.\"",
+  "file_count": 1
+ },
+ {
+  "name": "xurl",
+  "path": "social-media/xurl",
+  "description": "\"X/Twitter via xurl CLI: post, search, DM, media, v2 API.\"",
+  "file_count": 1
+ },
+ {
+  "name": "debugging-hermes-tui-commands",
+  "path": "software-development/debugging-hermes-tui-commands",
+  "description": "\"Debug Hermes TUI slash commands: Python, gateway, Ink UI.\"",
+  "file_count": 1
+ },
+ {
+  "name": "hermes-agent-skill-authoring",
+  "path": "software-development/hermes-agent-skill-authoring",
+  "description": "\"Author in-repo SKILL.md: frontmatter, validator, structure, and writing-quality principles.\"",
+  "file_count": 1
+ },
+ {
+  "name": "hermes-s6-container-supervision",
+  "path": "software-development/hermes-s6-container-supervision",
+  "description": "Modify, debug, or extend the s6-overlay supervision tree inside the Hermes Agent Docker image \u2014 adding new services, debugging profile gateways, understanding t",
+  "file_count": 1
+ },
+ {
+  "name": "karpathy-coding-principles",
+  "path": "software-development/karpathy-coding-principles",
+  "description": "Behavioral guidelines to reduce common LLM coding mistakes. Use when writing, reviewing, or refactoring code to avoid overcomplication, make surgical changes, s",
+  "file_count": 3
+ },
+ {
+  "name": "mattpocock-codebase-design",
+  "path": "software-development/mattpocock-codebase-design",
+  "description": "Shared vocabulary for designing deep modules. Use when the user wants to design or improve a module's interface, find deepening opportunities, decide where a se",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-domain-modeling",
+  "path": "software-development/mattpocock-domain-modeling",
+  "description": "Build and sharpen a project's domain model. Use when the user wants to pin down domain terminology or a ubiquitous language, record an architectural decision, o",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-grill-with-docs",
+  "path": "software-development/mattpocock-grill-with-docs",
+  "description": "A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-implement",
+  "path": "software-development/mattpocock-implement",
+  "description": "\"Implement a piece of work based on a PRD or set of issues.\"",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-prototype",
+  "path": "software-development/mattpocock-prototype",
+  "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a U",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-research",
+  "path": "software-development/mattpocock-research",
+  "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, d",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-resolving-merge-conflicts",
+  "path": "software-development/mattpocock-resolving-merge-conflicts",
+  "description": "\"Use when you need to resolve an in-progress git merge/rebase conflict.\"",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-to-issues",
+  "path": "software-development/mattpocock-to-issues",
+  "description": "Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices.",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-to-prd",
+  "path": "software-development/mattpocock-to-prd",
+  "description": "Turn the current conversation into a PRD and publish it to the project issue tracker \u2014 no interview, just synthesis of what you've already discussed.",
+  "file_count": 1
+ },
+ {
+  "name": "mattpocock-triage",
+  "path": "software-development/mattpocock-triage",
+  "description": "Move issues and external PRs through a state machine of triage roles \u2014 categorise, verify, grill if needed, and write agent-ready briefs.",
+  "file_count": 1
+ },
+ {
+  "name": "node-inspect-debugger",
+  "path": "software-development/node-inspect-debugger",
+  "description": "\"Debug Node.js via --inspect + Chrome DevTools Protocol CLI.\"",
+  "file_count": 1
+ },
+ {
+  "name": "plan",
+  "path": "software-development/plan",
+  "description": "\"Plan mode: write an actionable markdown plan to .hermes/plans/, no execution. Bite-sized tasks, exact paths, complete code.\"",
+  "file_count": 1
+ },
+ {
+  "name": "python-debugpy",
+  "path": "software-development/python-debugpy",
+  "description": "\"Debug Python: pdb REPL + debugpy remote (DAP).\"",
+  "file_count": 1
+ },
+ {
+  "name": "requesting-code-review",
+  "path": "software-development/requesting-code-review",
+  "description": "\"Pre-commit review: security scan, quality gates, auto-fix.\"",
+  "file_count": 1
+ },
+ {
+  "name": "simplify-code",
+  "path": "software-development/simplify-code",
+  "description": "\"Parallel 3-agent cleanup of recent code changes.\"",
+  "file_count": 1
+ },
+ {
+  "name": "software-development-workflow",
+  "path": "software-development/software-development-workflow",
+  "description": "\"Use when planning, spiking, debugging, implementing, testing, reviewing, or delegating software changes with disciplined verification.\"",
+  "file_count": 6
+ },
+ {
+  "name": "spike",
+  "path": "software-development/spike",
+  "description": "\"Throwaway experiments to validate an idea before build.\"",
+  "file_count": 1
+ },
+ {
+  "name": "subagent-driven-development",
+  "path": "software-development/subagent-driven-development",
+  "description": "\"Execute plans via delegate_task subagents (2-stage review).\"",
+  "file_count": 3
+ },
+ {
+  "name": "systematic-debugging",
+  "path": "software-development/systematic-debugging",
+  "description": "\"4-phase root cause debugging: understand bugs before fixing.\"",
+  "file_count": 1
+ },
+ {
+  "name": "test-driven-development",
+  "path": "software-development/test-driven-development",
+  "description": "\"TDD: enforce RED-GREEN-REFACTOR, tests before code.\"",
+  "file_count": 1
+ },
+ {
+  "name": "vega-app-dev-qa",
+  "path": "software-development/vega-app-dev-qa",
+  "description": "Comprehensive pre-build Q&A and post-build security checklist for AI-assisted app development. Use when building any app that collects user data, calls paid API",
+  "file_count": 4
+ },
+ {
+  "name": "writing-plans",
+  "path": "software-development/writing-plans",
+  "description": "\"Write implementation plans: bite-sized tasks, paths, code.\"",
+  "file_count": 1
+ },
+ {
+  "name": "still-photo-celebration-composite",
+  "path": "venice/still-photo-celebration-composite",
+  "description": "Face-likeness-guaranteed celebration videos using original photos on a generated background, animated in FFmpeg. Use when R2V fails for multi-person dynamic sce",
+  "file_count": 2
+ },
+ {
+  "name": "venice-usage-analytics",
+  "path": "venice/venice-usage-analytics",
+  "description": "Build read-only usage dashboards, automated reports, and long-term cost archives from the Venice.ai billing and admin APIs.",
+  "file_count": 12
+ },
+ {
+  "name": "venice-video-class",
+  "path": "venice/venice-video-class",
+  "description": "| Class-level umbrella for generating and assembling video through the Venice.ai API (text-to-video, image-to-video, reference-to-video, audio-driven workflows,",
+  "file_count": 8
+ },
+ {
+  "name": "yuanbao",
+  "path": "yuanbao",
+  "description": "\"Yuanbao (\u5143\u5b9d) groups: @mention users, query info/members.\"",
+  "file_count": 1
+ }
+]

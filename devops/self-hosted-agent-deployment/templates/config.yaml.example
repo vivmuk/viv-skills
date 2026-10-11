@@ -1,0 +1,38 @@
+# Agent runtime config template (Hermes-flavored).
+#
+# Drop in next to the upstream Dockerfile so the container's stage2
+# hook picks it up at `/opt/data/config.yaml`.  The provider block is
+# generic; the rest of the schema is Hermes-specific.
+#
+# Substitutions in `${VAR}` form are resolved from .env at start.
+
+model:
+  default: minimax-m3
+  context_length: 500000
+  max_output_tokens: 32000
+
+providers:
+  primary:
+    type: openai
+    base_url: ${LLM_BASE_URL}
+    api_key: ${LLM_API_KEY}
+    default_model: ${LLM_MODEL}
+  fallback:
+    type: openai
+    base_url: ${LLM_FALLBACK_BASE_URL}
+    api_key: ${LLM_FALLBACK_API_KEY}
+    default_model: ${LLM_FALLBACK_MODEL}
+
+fallback_providers:
+  - fallback
+  - primary
+
+telegram:
+  bot_token: ${TELEGRAM_BOT_TOKEN}
+  reactions: false
+  channel_prompts: {}
+  allowed_chats: ${TELEGRAM_ALLOWED_CHATS}
+
+logging:
+  file: /opt/data/logs/agent.log
+  level: INFO

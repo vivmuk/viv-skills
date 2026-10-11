@@ -1,0 +1,67 @@
+###############################################################################
+# Hermes profile: <NAME> (teachable variant)                              #
+#                                                                             #
+# Use this when the sub-agent's users should be able to TEACH the agent new   #
+# skills over time. Tools available: file, skills, terminal, web, vision.     #
+# Tools BLOCKED: delegation, cronjob, memory, send_message, todo.             #
+#                                                                             #
+# Fill the three REPLACE_ME placeholders:                                     #
+#   model.api_key            -> a dedicated Venice key (its own DIEM cap)    #
+#   telegram.bot_token       -> token from @BotFather (separate from main)   #
+#   telegram.allowed_chats   -> comma-separated Telegram chat IDs            #
+#                                                                             #
+# Boundary is enforced in SOUL.md (read every turn) + toolsets (rejectlist). #
+# Not a kernel-level sandbox. For real isolation, wrap in Docker + seccomp.   #
+###############################################################################
+
+model:
+  default: minimax-m3-preview
+  provider: custom
+  base_url: https://api.venice.ai/api/v1
+  api_key: VENICE_INFERENCE_KEY_REPLACE_ME
+  context_length: 128000
+  max_output_tokens: 8000
+
+providers: {}
+fallback_providers: []
+credential_pool_strategies: {}
+
+agent:
+  max_turns: 30
+  gateway_timeout: 900
+  api_max_retries: 2
+  context_compression: true
+  image_input_mode: auto
+  reasoning_effort: low
+  clarify_timeout: 120
+  task_completion_guidance: true
+  toolsets:
+    - read_file
+    - write_file
+    - patch
+    - search_files
+    - terminal
+    - skills
+    - web
+    - vision
+    - browser
+  disabled_toolsets:
+    - cronjob
+    - delegation
+    - send_message
+    - memory
+    - todo
+  verbose: false
+
+approvals:
+  mode: manual
+  timeout: 120
+  cron_mode: deny
+  mcp_reload_confirm: true
+  destructive_slash_confirm: true
+
+telegram:
+  bot_token: REPLACE_WITH_BOTFATHER_TOKEN
+  reactions: false
+  channel_prompts: {}
+  allowed_chats: 'REPLACE_WITH_CHAT_ID'

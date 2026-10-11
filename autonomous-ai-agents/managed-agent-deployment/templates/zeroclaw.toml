@@ -1,0 +1,37 @@
+# ZeroClaw framework configuration.
+# Read on every container boot. Changes apply on the next deploy/restart cycle.
+# Cross-check the model + baseUrl values against templates/maritime.json so the two
+# files agree on tier, framework, and defaultModel.
+
+[gateway]
+bind             = "0.0.0.0:42617"
+allow_public_bind = true
+subprotocol      = "zeroclaw.v1"
+# Password is supplied via the ZEROCLAW_GATEWAY_PASSWORD env var (auto-injected).
+
+[provider]
+# ZeroClaw speaks the OpenAI-compatible chat API. Pointing at Venice directly
+# bypasses the maritime LLM proxy.
+base_url      = "https://api.venice.ai/api/v1"
+api_key_env   = "VENICE_INFERENCE_KEY"
+default_model = "zai-org-glm-5-2"
+
+[provider.fallback]
+# If zai-org-glm-5-2 is rate-limited or unavailable, the failing request is NOT
+# retried automatically against these models. Operators must switch explicitly.
+# Listed for visibility only.
+# models = ["claude-opus-4-8", "openai-gpt-55"]
+
+[memory]
+# In-process only. Cross-run persistence lives in STATE.md (mounted from
+# /zeroclaw-data/workspace).
+ephemeral = true
+
+[playbook]
+# Where to look for auxiliary prompts.
+prompts_dir        = "./prompts"
+default_prompt_file = "./PROMPT.md"
+
+[runtime]
+# Provider request timeout in seconds.
+timeout_seconds = 600

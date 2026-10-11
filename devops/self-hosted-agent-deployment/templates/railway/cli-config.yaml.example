@@ -1,0 +1,47 @@
+# Hermes runtime configuration (Venice-flavored)
+#
+# This file is the SINGLE source-of-truth. entrypoint.sh copies it
+# to BOTH ~/.hermes/cli-config.yaml and ~/.hermes/config.yaml so
+# the gateway (config.yaml) and the CLI (cli-config.yaml) both see
+# it (gotcha #13 — they have different loaders).
+#
+# Provider override for Venice (OpenAI-compatible endpoint):
+#   - base_url → Venice's `/v1` (matches the OpenAI SDK contract)
+#   - api_key  → injected from Railway's VENICE_API_KEY env var via
+#                the `${OPENAI_API_KEY}` placeholder that Hermes
+#                substitutes at container start.
+#
+# For Anthropic / OpenRouter / other built-in providers, set
+# provider: <name> and drop base_url/api_key.
+
+model:
+  default: minimax-m3                          # Venice cheap / wide-ctx default
+  provider: custom                              # OpenAI-compatible custom endpoint
+  base_url: https://api.venice.ai/api/v1
+  api_key: ${VENICE_API_KEY}                    # substituted from Railway env at boot
+  context_length: 500000
+  max_output_tokens: 120000
+
+providers: {}
+fallback_providers: []
+credential_pool_strategies: {}
+
+terminal:
+  backend: local
+  timeout: 180
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 4000
+  user_char_limit: 2000
+
+agent:
+  max_turns: 60
+  reasoning_effort: medium
+  api_max_retries: 1                            # gotcha #19 — single retry with fallback providers
+
+# toolselivery — Telegram-only is the standard personal-DM surface
+platform_toolsets:
+  cli: [hermes-cli]
+  telegram: [hermes-telegram, session_search]

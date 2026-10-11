@@ -1,0 +1,71 @@
+# Generic agent + tunnel Compose template.
+#
+# Fill:
+#   - <AGENT>    → your agent's binary name (e.g. hermes, codex, openclaw)
+#   - <AGENT_PORT> → the agent's HTTP / health port (e.g. 8642 for Hermes)
+#   - <HEALTHCHECK_CMD> → the cmd that exits 0 if /health is reachable
+#
+# Reference (the Hermes-specific deploy I built from this template):
+#   ~/.hermes/deploy/oracle/
+#
+# Why this shape
+# --------------
+# Two services, one private bridge network. NO host ports. The
+# tunnel reaches the agent by service-name on the internal network.
+# The agent's healthcheck binds to localhost inside the container,
+# not the host.
+
+services:
+  agent:
+    build: .
+    image: <AGENT>:local
+    container_name: <AGENT>
+    restart: unless-stopped
+    environment:
+      - AGENT_UID=${AGENT_UID:-1000}
+      - AGENT_GID=${AGENT_GID:-1000}
+    volumes:
+      - ./data:/opt/data
+      - ./config.yaml:/opt/data/config.yaml:ro
+    networks: [internal]
+    healthcheck:
+      test: ${HEALTHCHECK_CMD}
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 90s
+    command: ["<AGENT_CMD>"]      # e.g. ["gateway", "run"]
+    # NO ports: section.
+
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    container_name: <AGENT>-tunnel
+    restart: unless-stopped
+    depends_on:
+      agent:
+        condition: service_healthy
+    volumes:
+      - ./tunnel:/etc/cloudflared:ro
+    networks: [internal]
+    command: ["tunnel", "--config", "/etc/cloudflared/config.yml", "run"]
+
+  # Optional: sidecar tailing agent stdout/log into managed Postgres.
+  # Drop '--profile with-neon-logger' on `docker compose up -d` to enable.
+  neon-logger:
+    image: node:22-bookworm-slim
+    container_name: <AGENT>-neon-logger
+    restart: unless-stopped
+    depends_on: [agent]
+    environment:
+      - DATABASE_URL=${DATABASE_URL}
+      - AGENT_LOG_PATH=/opt/data/logs/agent.log
+    volumes:
+      - ./data:/opt/data:ro
+      - ./scripts/neon-logger.js:/usr/local/bin/neon-logger.js:ro
+    command: ["node", "/usr/local/bin/neon-logger.js"]
+    networks: [internal]
+    profiles: ["with-neon-logger"]
+
+networks:
+  internal:
+    driver: bridge

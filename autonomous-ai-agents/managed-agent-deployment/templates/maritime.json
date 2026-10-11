@@ -1,0 +1,22 @@
+{
+  "name": "my-agent",
+  "framework": "zeroclaw",
+  "tier": "smart",
+  "persona": "AGENTS.md",
+  "defaultModel": "zai-org-glm-5-2",
+  "provider": {
+    "name": "venice",
+    "baseUrl": "https://api.venice.ai/api/v1",
+    "openAiCompatible": true,
+    "apiKeyEnvVar": "VENICE_INFERENCE_KEY"
+  },
+  "env": [
+    { "key": "VENICE_INFERENCE_KEY", "secret": true },
+    { "key": "OPENAI_API_KEY", "secret": true },
+    { "key": "OPENAI_BASE_URL", "value": "https://api.venice.ai/api/v1", "secret": false },
+    { "key": "ZEROCLAW_DEFAULT_MODEL", "value": "zai-org-glm-5-2", "secret": false },
+    { "key": "OPENAI_DEFAULT_MODEL",   "value": "zai-org-glm-5-2", "secret": false },
+    { "key": "MODEL",                   "value": "zai-org-glm-5-2", "secret": false }
+  ],
+  "autoPair": true
+}

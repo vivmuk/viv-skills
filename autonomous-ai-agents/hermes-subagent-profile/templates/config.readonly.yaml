@@ -1,0 +1,63 @@
+###############################################################################
+# Hermes profile: <NAME> (read-only variant)                               #
+#                                                                             #
+# Use this when the sub-agent is given to OUTSIDE users (beta, paid, free,   #
+# public). They can ask the agent what skills it has and use them, but they  #
+# cannot author new skills, run shell, or write files.                        #
+#                                                                             #
+# Placeholders (same as teachable):                                           #
+#   model.api_key, telegram.bot_token, telegram.allowed_chats.               #
+###############################################################################
+
+model:
+  default: minimax-m3-preview
+  provider: custom
+  base_url: https://api.venice.ai/api/v1
+  api_key: VENICE_INFERENCE_KEY_REPLACE_ME
+  context_length: 128000
+  max_output_tokens: 8000
+
+providers: {}
+fallback_providers: []
+credential_pool_strategies: {}
+
+agent:
+  max_turns: 30
+  gateway_timeout: 900
+  api_max_retries: 2
+  context_compression: true
+  image_input_mode: auto
+  reasoning_effort: low
+  clarify_timeout: 120
+  task_completion_guidance: true
+  toolsets:
+    - read_file
+    - search_files       # can search inside the profile's own skills dir
+    - web
+    - vision
+  disabled_toolsets:
+    - write_file         # outsiders cannot persist anything into the profile
+    - patch
+    - terminal           # no shell access for outsiders
+    - skills             # outsiders cannot author new skills (use read-only
+                         #   skill_lookup via skills_list + skill_view instead)
+    - cronjob
+    - delegation
+    - send_message
+    - memory
+    - todo
+    - browser            # keep research surface narrow for outside users
+  verbose: false
+
+approvals:
+  mode: manual
+  timeout: 120
+  cron_mode: deny
+  mcp_reload_confirm: true
+  destructive_slash_confirm: true
+
+telegram:
+  bot_token: REPLACE_WITH_BOTFATHER_TOKEN
+  reactions: false
+  channel_prompts: {}
+  allowed_chats: 'REPLACE_WITH_CHAT_ID'
