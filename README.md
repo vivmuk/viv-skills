@@ -61,6 +61,10 @@ A curated collection of AI agent skills for design, productivity, research, and 
 - **jessica-ai-pharma-exchange** — AI Pharma Exchange short podcast video pipeline with Jessica voice, Seedance R2V hostess, watercolor slides, and lip-sync
 - **video-movie-prompting** — Video generation prompts for Sora, Kling, Wan, Seedance, and others
 
+### 🚀 Launch Videos
+- **brag** — Turn the project you just built into a 15–25s launch video: story, storyboard, Hyperframes composition, render and share copy. Bundled music/SFX fetched from upstream.
+- **brag-slim** — One-file variant: the agent builds the story, HTML motion, soundtrack and MP4 itself with ffmpeg. No Hyperframes, no bundled assets.
+
 ## Source
 
 Skills authored by Vivek (viv-design, viv-app-build, grilling, grill-me, grill-with-docs, gai-insights, chalk-explainer-video, jessica-ai-pharma-exchange, context-engineering) and curated/installed skills from Hermes Agent, VeniceAI, Open Design, and the Karpathy coding principles repo.
